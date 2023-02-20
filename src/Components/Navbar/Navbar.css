@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 30px 20px 40px;
+    height: 4rem;
+    background-color: #fafafe;
+    max-height: 100px;
+    max-width: 100%;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 2.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.logoTitle{
+    font-weight: bold;
+    color: #7065f0;
+}
+.logo>img{
+    width: 2rem;
+    max-width: 60px;
+    max-height: 60px;
+    background-color: transparent;
+    height: 2rem;
+}
+.navMenu>button{
+    all: unset;
+    cursor: pointer;
+    margin-right: 2.2rem;
+}
+
+.loginBtns{
+    margin-left: auto;
+}
+.loginBtns>button{
+    all: unset;
+    cursor: pointer;
+}

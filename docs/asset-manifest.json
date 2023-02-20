@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.12e5e03d.css",
+    "main.js": "./static/js/main.a4a050b9.js",
+    "static/js/787.23627551.chunk.js": "./static/js/787.23627551.chunk.js",
+    "static/media/property11.jpg": "./static/media/property11.69746cd5cb273a437ce4.jpg",
+    "static/media/estatery-logo.png": "./static/media/estatery-logo.8ca109c963071d62aa1a.png",
+    "static/media/property8.jfif": "./static/media/property8.8d1756f0f5e828bc5edd.jfif",
+    "static/media/property9.jfif": "./static/media/property9.61891f7617ee88d01330.jfif",
+    "static/media/property7.jfif": "./static/media/property7.9a90fc347f2a7636a00f.jfif",
+    "static/media/property4.jfif": "./static/media/property4.fcfbbfb856dd89b925b7.jfif",
+    "static/media/property6.jfif": "./static/media/property6.6f5def0ace71d95c4474.jfif",
+    "static/media/property1.jfif": "./static/media/property1.4d4cc5cfdb20cdcbea99.jfif",
+    "static/media/property2.jfif": "./static/media/property2.7f6a3d047c94a0720272.jfif",
+    "static/media/property3.jfif": "./static/media/property3.49ccbc390fb20ff4462b.jfif",
+    "static/media/property5.jfif": "./static/media/property5.3ca6de807490cd9fd38a.jfif",
+    "static/media/property10.jfif": "./static/media/property10.edf46518fc6b13b802f5.jfif",
+    "index.html": "./index.html",
+    "main.12e5e03d.css.map": "./static/css/main.12e5e03d.css.map",
+    "main.a4a050b9.js.map": "./static/js/main.a4a050b9.js.map",
+    "787.23627551.chunk.js.map": "./static/js/787.23627551.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12e5e03d.css",
+    "static/js/main.a4a050b9.js"
+  ]
+}

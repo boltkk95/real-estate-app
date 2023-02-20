@@ -1,0 +1,63 @@
+.card{
+    font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fafafe;
+    max-height: 400px;
+}
+.cardImage{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 9px;
+    height: 45%;
+}
+.cardDetails{
+    padding: 2rem 1rem;
+    color: #aeb0ba;
+}
+.cardRent{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #7065f0;
+}
+.cardItem1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cardItemRight{
+    margin-left: 50%;
+    color: #7065f0;
+    padding: 8px;
+    cursor: pointer;
+    border: solid #7065f0 1px;
+    border-radius: 50%;
+}
+.cardItemLeft>h2{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 20px;
+    color: black;
+}
+.cardAddress{
+    font-size: 12px;
+    font-weight: 500;
+}
+.btmLine{
+    height: 1px;
+    background-color: #aeb0ba;
+    margin-bottom: 1rem;
+}
+.cardRooms{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+.btmIcons{
+    padding-right: 4px;
+}

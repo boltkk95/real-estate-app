@@ -1,0 +1,33 @@
+.rentPage{
+    width: 100vw;
+    max-width: 100%;
+    background-color: #f1f1fe;
+    max-height: 100%;
+}
+.hero{
+    margin: 2rem 6rem;
+}
+.cardList{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+.rentHeading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    color: black ;
+    align-items: center;
+}
+.rentHeading>input{
+    border: #7065f0 solid 1px;
+    border-radius: 8px;
+    padding: 3px 6px;
+    height: 2rem;
+    color: #7065f0;
+}
+.rentHeading>h2{
+    font-size: 2.2rem;
+}

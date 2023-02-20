@@ -1,0 +1,47 @@
+.filter{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafe;
+    padding: 1.5rem;
+}
+
+.filter>button{
+    background-color: #7065f0;
+    color: #fafafe;
+    border: none;
+    border-radius: 9px;
+    padding: 1rem 2rem;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.filterItem{
+    padding-right: 3.5rem;
+    border-right: solid #7065f0 1px;
+}
+.filterItem>label{
+    display: flex;
+    flex-direction: column;
+    color: #aeb0ba;
+}
+.filterItem>label>select{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.filterItem>label>select>option{
+    color: black;
+    border: none;
+}
+.filterItem>label>span{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
