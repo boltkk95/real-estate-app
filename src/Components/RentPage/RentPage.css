@@ -1,4 +1,4 @@
-.rentPage{
+/* .rentPage{
     width: 100vw;
     max-width: 100%;
     background-color: #f1f1fe;
@@ -30,4 +30,52 @@
 }
 .rentHeading>h2{
     font-size: 2.2rem;
+} */
+
+.rentPage {
+    width: 100%;
+    background-color: #f1f1fe;
+}
+
+.hero {
+    margin: 2rem 5%;
+}
+
+.cardList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 0 5%;
+}
+
+.rentHeading {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.rentHeading > input {
+    border: #7065f0 solid 1px;
+    border-radius: 8px;
+    padding: 0.5rem;
+    color: #7065f0;
+    margin-top: 1rem;
+}
+
+.rentHeading > h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+    .hero {
+        margin: 2rem auto;
+        max-width: 960px;
+    }
+
+    .cardList {
+        padding: 0;
+    }
 }

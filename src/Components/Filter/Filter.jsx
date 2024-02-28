@@ -18,7 +18,6 @@ function Filter(props) {
       </div>
       <div className='date filterItem'>
         <label>
-            When
             <span>Select Move-in Date</span>
         </label>
       </div>

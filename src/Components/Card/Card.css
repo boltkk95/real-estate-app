@@ -1,4 +1,4 @@
-.card{
+/* .card{
     font-size: 12px;
     flex: 0 0 auto;
     display: flex;
@@ -60,4 +60,83 @@
 }
 .btmIcons{
     padding-right: 4px;
+} */
+
+.card {
+    font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fafafe;
+    max-height: 400px;
+}
+
+.cardImage {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 9px;
+    height: 45%;
+    object-fit: cover; /* Ensures the image maintains its aspect ratio and covers the entire container */
+}
+
+.cardDetails {
+    padding: 1rem; /* Adjusted padding for better responsiveness */
+    color: #aeb0ba;
+}
+
+.cardRent {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #7065f0;
+}
+
+.cardItem1 {
+    display: flex;
+    align-items: center;
+}
+
+.cardItemRight {
+    margin-left: auto; /* Aligns to the right */
+    color: #7065f0;
+    padding: 8px;
+    cursor: pointer;
+    border: solid #7065f0 1px;
+    border-radius: 50%;
+}
+
+.cardItemLeft > h2 {
+    margin: 5px 0 0; /* Adjusted top margin */
+    font-size: 1.2rem; /* Adjusted font size for better readability */
+    color: black;
+}
+
+.cardAddress {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.btmLine {
+    height: 1px;
+    background-color: #aeb0ba;
+    margin: 1rem -1rem; /* Adjusted margin to prevent stretching */
+}
+
+.cardRooms {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.btmIcons {
+    padding-right: 4px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+    .cardDetails {
+        padding: 1.5rem; /* Adjusted padding for larger screens */
+    }
 }

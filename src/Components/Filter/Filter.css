@@ -1,4 +1,4 @@
-.filter{
+/* .filter{
     display: flex;
     flex-direction: row;
     margin-bottom: 2rem;
@@ -44,4 +44,54 @@
     font-size: 16px;
     font-weight: bold;
     color: black;
+} */
+
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafe;
+    padding: 1.5rem;
+    border-radius: 9px;
+}
+
+.filter > button {
+    background-color: #7065f0;
+    color: #fafafe;
+    border: none;
+    border-radius: 9px;
+    padding: 1rem 2rem;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.filterItem {
+    flex: 1 1 calc(45% - 1rem); /* Adjusted item width for responsiveness */
+    margin: 1rem
+}
+
+.filterItem:last-child {
+    margin-right: 0; /* Remove right margin for the last filter item */
+}
+
+.filterItem > label {
+    color: #aeb0ba;
+    margin-bottom: 0.5rem;
+}
+
+.filterItem > label > select, .filterItem > label > span {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    width: 100%; /* Ensure select and span take full width */
+}
+
+.filterItem > label > select > option {
+    color: black;
+    border: none;
 }
